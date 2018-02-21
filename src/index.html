@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Calculator</title>
+</head>
+
+<body>
+
+  <main>
+    <div class="container">
+      <div class="display-container">
+        <input class="display" type="text" value="0" disabled>
+      </div>
+      <div class="inputs">
+        <div class="modifiers-numbers">
+          <div class="modifiers">
+            <button class="btn clear-btn">AC</button>
+            <button class="btn modifier-btn" data-mod="posneg">+/-</button>
+            <button class="btn modifier-btn" data-mod="percentage">%</button>
+          </div>
+          <div class="numbers">
+            <button class="btn number-btn" data-num="9">9</button>
+            <button class="btn number-btn" data-num="8">8</button>
+            <button class="btn number-btn" data-num="7">7</button>
+            <button class="btn number-btn" data-num="6">6</button>
+            <button class="btn number-btn" data-num="5">5</button>
+            <button class="btn number-btn" data-num="4">4</button>
+            <button class="btn number-btn" data-num="3">3</button>
+            <button class="btn number-btn" data-num="2">2</button>
+            <button class="btn number-btn" data-num="1">1</button>
+            <button class="btn number-btn" data-num="0">0</button>
+            <button class="btn number-btn" data-num=".">.</button>
+          </div>
+        </div>
+        <div class="operators">
+          <button class="btn operator-btn" data-op="divide">&divide;</button>
+          <button class="btn operator-btn" data-op="multiply">&times;</button>
+          <button class="btn operator-btn" data-op="subtract">&#45;</button>
+          <button class="btn operator-btn" data-op="add">&#43;</button>
+          <button class="btn equals-btn">=</button>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p class="footer-info">Created by
+      <a href="https://github.com/Makezi">Marko Djordjevic</a>
+    </p>
+  </footer>
+</body>
+
+</html>
